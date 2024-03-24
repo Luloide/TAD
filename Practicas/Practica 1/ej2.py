@@ -63,6 +63,5 @@ def generar_matriz_vacia(n):
         matriz.append(fila)
     return matriz
 
-# Generar y mostrar 100 cuadrados mágicos
 cuadrados_magicos = cuadradoMagico(list(range(1, 10)), 3, 15, generar_matriz_vacia(3), [], 0 ,0)
 print(cuadrados_magicos)
